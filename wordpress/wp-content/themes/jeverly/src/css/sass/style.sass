@@ -1,0 +1,1050 @@
+/*# Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+	margin: 0
+	padding: 0
+	border: 0
+	font-size: 100%
+	vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+	display: block
+
+body 
+	line-height: 1
+
+ol, ul 
+	list-style: none
+
+blockquote, q 
+	quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after 
+	content: ''
+	content: none
+
+table 
+	border-collapse: collapse
+	border-spacing: 0
+
+
+/* Typography*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea 
+	color: #7d7d7d
+	font: 13px 'Playfair Display', serif
+	line-height: 1.5
+
+
+.site-main .entry-content h2
+	font: 44px 'Playfair Display', serif
+	font-weight: 100
+	text-align: center
+	color: #111
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+	clear: both
+
+
+p 
+	margin-bottom: 1.5em
+	font-family: 'Lato', sans-serif
+
+
+dfn,
+cite,
+em,
+i 
+	font-style: italic
+
+
+blockquote 
+	margin: 0 1.5em
+
+
+address 
+	margin: 0 0 1.5em
+
+
+pre 
+	background: #eee
+	font-family: "Courier 10 Pitch", courier, monospace
+	line-height: 1.6
+	margin-bottom: 1.6em
+	max-width: 100%
+	overflow: auto
+	padding: 1.6em
+
+
+abbr,
+acronym 
+	border-bottom: 1px dotted #666
+	cursor: help
+
+
+mark,
+ins 
+	background: #fff9c0
+	text-decoration: none
+
+
+big 
+	font-size: 125%
+
+
+/* Elements*/
+body 
+	background: #fff
+	margin: 0% 15% 0% 15%
+
+
+main
+	width: 70% 
+	margin: auto
+
+
+hr 
+	background-color: #ccc
+	border: 0
+	height: 1px
+	margin-bottom: 1.5em
+
+
+ul,
+ol 
+	margin: 0 0 1.5em 3em
+
+
+ul 
+	list-style: disc
+
+
+ol 
+	list-style: decimal
+
+
+li > ul,
+li > ol 
+	margin-bottom: 0
+	margin-left: 1.5em
+
+
+dt 
+	font-weight: 700
+
+
+dd 
+	margin: 0 1.5em 1.5em
+
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object 
+	max-width: 100%
+
+
+img 
+	height: auto
+	max-width: 100%
+
+
+figure 
+	margin: 1em 0
+
+
+table 
+	margin: 0 0 1.5em
+	width: 100%
+
+
+/* Links*/
+a 
+	color: #4169e1
+
+
+a:visited 
+	color: #800080
+
+
+a:hover,
+a:focus,
+a:active 
+	color: #191970
+
+
+a:focus 
+	outline: none
+
+
+a:hover,
+a:active 
+	outline: 0
+
+
+.entry-content .more-link
+	text-transform: uppercase
+	text-decoration: none
+	padding: 12px 40px
+	background: #3f5b2c
+	color: #ffffff
+	position: absolute
+
+
+/* Forms*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] 
+	border: 1px solid
+	border-color: #ccc #ccc #bbb
+	border-radius: 3px
+	background: #e6e6e6
+	color: rgba(0, 0, 0, 0.8)
+	line-height: 1
+	padding: 0.6em 1em 0.4em
+
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover 
+	border-color: #ccc #bbb #aaa
+
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus 
+	border-color: #aaa #bbb #bbb
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea 
+	color: #666
+	border: 1px solid #ccc
+	border-radius: 3px
+	padding: 3px
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus 
+	color: #111
+	outline: none
+
+
+select 
+	border: 1px solid #ccc
+
+
+textarea 
+	width: 100%
+
+.site-title
+	display: none	
+
+
+main .dekor
+	text-align: center
+	padding: 3% 0
+	width: 100%
+  
+
+
+/*# Layouts*/
+
+/*# Components*/
+
+.site-footer
+	display: flex
+	align-items: center
+	padding: 2% 0
+	border-top: 7px #c1cdb8 double
+
+
+.site-footer .contain
+	width: 100%
+
+
+.site-footer .row
+	align-items: center
+
+/* Navigation */
+.site-header .row
+	align-items: center
+	margin: 0
+
+
+.site-header .cont .row div
+	padding: 0
+
+
+.main-navigation
+	display: flex
+	width: 100%
+	clear: both
+	margin: auto
+	justify-content: center
+
+
+.main-navigation ul 
+	display: none 
+	list-style: none
+	margin: 0
+	padding-left: 0
+
+
+.main-navigation ul ul 
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2)
+	position: absolute
+	top: 100%
+	left: -999em
+	z-index: 99999
+	background: #3f5b2c
+	display: inherit
+	padding: 15%
+
+
+.main-navigation ul ul ul 
+	top: -35%
+	padding: 10%
+
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul 
+	display: block
+	left: 115%
+
+
+.main-navigation ul ul a 
+	width: 130px
+	padding: 8px
+	color: #ffffff
+	margin: 0%
+
+.main-navigation ul ul a:hover 
+	border: 1px #536c42 solid
+
+
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul 
+	left: -10%
+	
+
+
+.main-navigation li 
+	position: relative
+
+
+.main-navigation a 
+	display: block
+	text-decoration: none
+	color: #7d7d7d
+	text-transform: uppercase
+	margin-right: 30px
+
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul 
+	display: block
+	background: #3f5b2c
+
+
+.menu-toggle,
+.main-navigation.toggled ul a
+	color: #fff
+	padding: 2%
+	margin: 0 20px
+
+
+.menu-toggle,
+.main-navigation.toggled ul a:hover
+	border: 1px #536c42 solid
+
+
+.site-info_main-navigation ul
+	display: flex
+	list-style: none
+	margin: 0
+	padding-left: 0
+
+
+.site-info_main-navigation ul li
+	margin-right: 25px
+
+
+.site-info_main-navigation ul li:last-child
+	margin: 0px
+
+
+.site-info_main-navigation ul a
+	display: block
+	text-decoration: none
+	color: #7d7d7d
+	text-transform: uppercase
+	font-size: 13px
+
+
+
+.site-main .comment-navigation,
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation 
+	margin: 0 0 1.5em
+
+
+.comment-navigation .nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links 
+	display: flex
+
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous 
+	flex: 1 0 50%
+
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next 
+	text-align: end
+	flex: 1 0 50%
+
+
+/* Posts and pages*/
+.sticky 
+	display: block
+
+
+.post,
+.page 
+	margin: 0 0 1.5em
+
+
+.site-main .post
+	padding-bottom: 8%
+	border-bottom: 7px #c1cdb8 double
+
+
+
+.home .site-main .post:last-of-type
+	border-bottom: none
+
+
+.updated:not(.published) 
+	display: none
+
+
+.page-links 
+	clear: both
+	margin: 0 0 1.5em
+
+
+.nav-links
+	margin-bottom: 75px
+
+
+.nav-links .page-numbers
+	font: 17px 'Playfair Display'
+	font-style: normal
+	color: #000
+	padding: 12px 19px
+	text-decoration: none
+	transition: all 0.5s
+
+
+.home .nav-links .prev,
+.home .nav-links .next
+	color: #c7c7c7
+
+
+.home .nav-links span,
+.home .nav-links a:hover
+	background: #f5f4f2
+
+
+.home .nav-links span,
+.home .nav-links a:active
+	background: #f5f4f2
+
+
+/*single-post*/
+
+.single-post .type-post
+	margin-bottom: 80px
+
+
+.single-post .comment
+	display: none
+
+
+.single-post .nav-links a
+	text-decoration: none
+	display: flex
+	align-items: center
+	justify-content: space-between
+	position: relative
+
+
+.single-post .nav-links a .nav-subtitle
+	padding: 16px 11px
+	background: #3f5b2c
+	color: #fff
+	font-size: 30px
+	display: inline-block
+
+
+.single-post .nav-links a .nav-title
+	font: 17px 'Playfair Display'
+	font-style: normal
+	color: #000
+	width: 85%
+	display: block
+
+
+.single-post .nav-links .nav-previous a .nav-title::before,
+.single-post .nav-links .nav-next a .nav-title::before
+	position: absolute
+	top: 0px
+	color: #b8b8b8
+	font: 14px 'Lato', sans-serif
+
+
+.single-post .nav-links .nav-previous a .nav-title::before
+	content: 'Preview Post'
+
+
+.single-post .nav-links .nav-next a .nav-title::before
+	content: 'Next Post'
+	right: 60px
+
+
+/* Comments*/
+.comment-content a 
+	word-wrap: break-word
+
+
+.bypostauthor 
+	display: block
+
+
+.entry-content .comment
+	text-align: end
+	padding: 2% 0
+
+
+.entry-content .comment span
+	padding: 9px 12px
+	border: 1px #d9d9d8 solid
+	border-radius: 1px
+	color: #d9d9d8
+
+
+
+/* Widgets*/
+.widget 
+	display: flex
+	justify-content: flex-end
+
+
+.widget select 
+	max-width: 100%
+
+
+/* Media*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley 
+	border: none
+	margin-bottom: 0
+	margin-top: 0
+	padding: 0
+
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link 
+	display: inline-block
+
+
+/* Captions*/
+.wp-caption 
+	margin-bottom: 1.5em
+	max-width: 100%
+
+
+.wp-caption img[class*="wp-image-"] 
+	display: block
+	margin-left: auto
+	margin-right: auto
+
+
+.wp-caption .wp-caption-text 
+	margin: 0.8075em 0
+
+
+.wp-caption-text 
+	text-align: center
+
+
+/* Galleries */
+.gallery 
+	margin-bottom: 1.5em
+	display: grid
+	grid-gap: 1.5em
+
+
+.gallery-item 
+	display: inline-block
+	text-align: center
+	width: 100%
+
+
+.gallery-columns-2 
+	grid-template-columns: repeat(2, 1fr)
+
+
+.gallery-columns-3 
+	grid-template-columns: repeat(3, 1fr)
+
+
+.gallery-columns-4 
+	grid-template-columns: repeat(4, 1fr)
+
+
+.gallery-columns-5 
+	grid-template-columns: repeat(5, 1fr)
+
+
+.gallery-columns-6 
+	grid-template-columns: repeat(6, 1fr)
+
+
+.gallery-columns-7 
+	grid-template-columns: repeat(7, 1fr)
+
+
+.gallery-columns-8 
+	grid-template-columns: repeat(8, 1fr)
+
+
+.gallery-columns-9 
+	grid-template-columns: repeat(9, 1fr)
+
+
+.gallery-caption 
+	display: block
+
+
+/*# Plugins*/
+
+/* Jetpack infinite scroll*/
+
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer 
+	display: none
+
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer 
+	display: block
+
+
+/*# Utilities*/
+
+/* Accessibility*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text 
+	border: 0
+	clip: rect(1px, 1px, 1px, 1px)
+	clip-path: inset(50%)
+	height: 1px
+	margin: -1px
+	overflow: hidden
+	padding: 0
+	position: absolute !important
+	width: 1px
+	word-wrap: normal !important
+
+
+.screen-reader-text:focus 
+	background-color: #f1f1f1
+	border-radius: 3px
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6)
+	clip: auto !important
+	clip-path: none
+	color: #21759b
+	display: block
+	font-size: 0.875rem
+	font-weight: 700
+	height: auto
+	left: 5px
+	line-height: normal
+	padding: 15px 23px 14px
+	text-decoration: none
+	top: 5px
+	width: auto
+	z-index: 100000
+
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus 
+	outline: 0
+
+
+/* Alignments*/
+.alignleft 
+
+	/*rtl:ignore*/
+	float: left
+
+	/*rtl:ignore*/
+	margin-right: 1.5em
+	margin-bottom: 1.5em
+
+
+.alignright 
+
+	/*rtl:ignore*/
+	float: right
+
+	/*rtl:ignore*/
+	margin-left: 1.5em
+	margin-bottom: 1.5em
+
+
+.aligncenter 
+	clear: both
+	display: block
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 1.5em
+
+
+@media (max-width: 599px) 
+	body
+		width: 100%
+		margin: 0
+	
+	.site-header
+		display: block
+		width: 90%
+		margin: auto
+		padding-bottom: 2%
+		border-bottom: 7px #c1cdb8 double
+	 
+
+	.site-header button
+		border: none
+		background: white
+		color: #9fad95
+		line-height: 1
+		padding: 4px
+		font-size: 31px
+		outline: none
+		position: absolute
+		top: -12px
+	
+
+	.site-header button:hover
+    	color: #74965c
+	
+
+	.site-main 
+		width: 100%
+	
+
+	.main-navigation 
+		justify-content: flex-end
+		outline: none
+		position: relative
+	
+	.site-main .entry-header h1,
+	.site-main .entry-header h2
+		text-align: center
+	
+
+	.site-main .entry-header h1,
+	.site-main .entry-header h2 a
+		font-size: 24px
+		text-decoration: none
+		color: black
+	
+
+	.site-main .entry-content p 
+		width: 95%
+		margin: 10px auto
+	
+
+	.entry-content .comment 
+		margin-right: 10px
+	
+
+	.site-main .post .entry-content .entry-meta span,
+	.site-main .post .entry-content .entry-meta a 
+		color: #7d7d7d
+		text-decoration: none
+		font-family: 'Lato', sans-serif
+		font-style: italic
+		font-weight: 600
+	
+
+	.entry-content .more-link
+		margin-left: 10px
+	
+
+	.toggled
+		display: block
+		text-align: center
+		text-align: start
+	
+
+	/*footer*/
+	.site-footer 
+		width: 90%
+		margin: auto
+	
+
+	.site-footer .contain
+		width: 100%
+	
+
+	.site-footer .row
+		justify-content: center
+	
+
+	.site-info_main-navigation ul 
+		justify-content: center
+	
+
+	.site-info_main-navigation ul a
+		font-size: 11px
+	
+
+	.tnp-widget .tnp-submit
+		font-size: 11px
+	
+
+
+@media (min-width: 599px)  
+	body
+		width: 95%
+		margin: auto
+	
+	
+	.site-header
+		margin: 15px auto
+		padding: 2% 0
+		border-bottom: 7px #c1cdb8 double
+	
+
+	.site-main 
+		width: 100%
+	
+
+	.toggled
+		display: block
+		text-align: center
+	
+
+	.main-navigation ul ul a 
+		width: 100px
+		padding: 6px
+		margin: 0%
+	
+	.main-navigation ul li.focus > ul 
+		left: -16%
+	
+
+	.main-navigation a 
+		margin-right: 20px
+		font-size: 11px
+	
+
+	.site-main .post .entry-content:hover 
+		background: #f8f8f7
+	
+
+	.site-main .entry-header h1,
+	.site-main .entry-header h2
+		text-align: center
+	
+
+	.site-main .entry-header h1,
+	.site-main .entry-header h2 a
+		font-size: 30px
+		text-decoration: none
+		color: black
+	
+
+	.site-main .entry-content p 
+		width: 100%
+	
+	
+	.site-main .post .entry-content .entry-meta span,
+	.site-main .post .entry-content .entry-meta a 
+		color: #7d7d7d
+		text-decoration: none
+		font-family: 'Lato', sans-serif
+		font-style: italic
+		font-weight: 600
+	
+
+	.wp-block-image,
+	.wp-block-image img 
+		width: 100%
+	
+	.site-header button
+		border: none
+		background: white
+		color: #9fad95
+		line-height: 1
+		padding: 4px
+		font-size: 31px
+		outline: none
+		width: 100%
+		text-align: end
+	
+
+	.site-header button:hover
+    	color: #74965c
+	
+	.main-navigation 
+		justify-content: flex-end
+		outline: none
+	
+
+	/*footer*/
+	.site-info_main-navigation ul a
+		font-size: 11px
+	
+ 
+
+@media (min-width: 768px)  
+	body 
+		margin: auto
+		width: 90%
+	
+
+	.site-info_main-navigation ul a
+		font-size: 13px
+	
+
+	.main-navigation 
+		justify-content: center
+	
+
+	.site-main .entry-header h1,
+	.site-main .entry-header h2 a
+		font-size: 35px
+		width: 90%
+		margin: auto
+	
+
+	.menu-toggle 
+		display: none
+	
+
+	.main-navigation ul 
+		display: flex
+	
+
+ 
+
+@media (min-width: 992px)  
+	.site-main 
+		width: 90%
+		margin: auto
+	
+
+	.site-main .entry-header h1,
+	.site-main .entry-header h2 a
+		font-size: 48px
+	
+	.main-navigation a 
+		margin-right: 25px
+		font-size: 13px
+	
+
+	.main-navigation ul ul 
+		padding: 15%
+	
+	.main-navigation ul ul ul 
+		top: -35%
+		padding: 10%
+	
+	
+	.main-navigation ul ul a 
+		width: 130px
+		padding: 8px
+		margin: 0%
+	
+ 
+
+@media (min-width: 1200px)  
+	.site-main 
+		width: 65%
+		margin: auto
+	
