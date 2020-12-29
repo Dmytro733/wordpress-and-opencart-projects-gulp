@@ -6,33 +6,12 @@
  *
  * @package beAlwaysRight
  */
-		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus(
-			array(
-				'header-menu' => 'Primary'
-			)
-		);
-
-/**
- * Register widget area.
- *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
- */
-function beAlwaysRight_widgets_init() {
-	register_sidebar(
-		array(
-			'name'          => 'sidebar-1',
-			'id'            => 'sidebar-1',
-			'description'   => 'Add widgets here.',
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
-		)
-	);
-
-}
-add_action( 'widgets_init', 'beAlwaysRight_widgets_init' );
+// This theme uses wp_nav_menu() in one location.
+register_nav_menus(
+	array(
+		'header-menu' => 'Primary'
+	)
+);
 
 function wpspec_menu_desc( $item_output, $item, $depth, $args ) {
 	if ($item->description) {
@@ -61,13 +40,11 @@ function beAlwaysRight_scripts() {
 	wp_style_add_data( 'beAlwaysRight-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'beAlwaysRight-navigation', get_template_directory_uri() . '/js/navigation.js');
+	wp_enqueue_script( 'beAlwaysRight-my.js', get_template_directory_uri() . '/js/my.js');
 
 
-	wp_enqueue_style( 'beAlwaysRight-style', get_stylesheet_uri());
+	wp_enqueue_style( 'beAlwaysRight-style', get_template_directory_uri() . '/css/style.css');
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
 }
 add_action( 'wp_enqueue_scripts', 'beAlwaysRight_scripts' );
 

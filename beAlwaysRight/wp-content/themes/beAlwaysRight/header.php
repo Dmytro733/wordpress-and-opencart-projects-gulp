@@ -16,16 +16,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<title><?php bloginfo( 'name' ); wp_title(); ?></title>
-	<meta name="description" content="OnEvent Special Event Responsive Landing Page Template can be used for showing the event related information. Its easy to customize and work with.">
+	<meta name="description" content="">
 	<meta name="author" content="saptarang">
 	
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<script src="https://use.fontawesome.com/d5c1472aad.js"></script>
 	
 	<!-- Google Font Code -->
-	<link rel="stylesheet" href="/wp-content/themes/beAlwaysRight/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap-grid.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
 </head>
